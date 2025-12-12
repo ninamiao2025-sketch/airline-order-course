@@ -23,10 +23,10 @@ public class SwaggerConfig {
                 .contact(new Contact()
                         .name("Postion")
                         .email("support@postion.app")
-                        .url("https://github.com/tianyf925"))
+                        .url("https://github.com/ninamiao2025-sketch"))
                 )
                 .servers(java.util.Arrays.asList(
-                        new Server().url("http://13.60.85.242:8080"),
+                        new Server().url("http://16.171.112.73:8080"),
                         new Server().url("http://api.airline.com")
                 ))
                 .addSecurityItem(new SecurityRequirement().addList("bearerAuth"))
